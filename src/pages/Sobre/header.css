@@ -1,0 +1,121 @@
+.header {
+    width: 97%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  #user{
+    display: flex;
+    gap: 2pc;
+  }
+  #userfoto{
+    border-radius: 40px;
+    width: 50px;
+  }
+  .logout-btn{
+  color: var(--red);
+  height: 3pc;
+  width: 4pc;
+  font-size: 1pc;
+  border: none;
+  border-radius: 10pc;
+
+  }
+  #tituloEvento{
+    font-size: 2pc;
+    text-align: center;
+  }
+  #flyer{
+    width: 15pc;
+    height: 22pc;
+  }
+  #img-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3pc;
+    align-items: center;
+  }
+  #pix{
+    display: flex;
+    justify-content: space-between;
+    gap: 3pc;
+    border: solid 1px var(--primary);
+    border-radius: 3px;
+    
+  }
+  #container-ingresso{
+    display: flex;
+    gap: 5pc;
+    justify-content: space-around;
+  }
+  #copiar{
+    color: var(--red);
+    border: none;
+    background-color: rgba(245, 245, 220, 0);
+  }
+#valor-ingresso{
+    color: var(--red);
+    text-align: center;
+    font-weight: 600;
+}
+ #btn-end{
+    display: flex;
+    justify-content: center;
+ }
+ #container-infos{
+
+    width: 20pc;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(114, 114, 114, 0.027);
+    border-radius: 20px;
+ }
+ .p{
+    color: var(--primary);
+
+    
+ }
+ .mobile{
+  display: none;
+ }
+ #buy {
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 400;
+  border: none;
+  height: 2pc;
+  font-size: 1pc;
+  border-radius: 2pc;
+  width: 10pc;
+}
+ @media screen and (max-width: 870px) {
+  
+  .mobile{
+    display: block;
+   }
+
+#userfoto{
+  border-radius: 40px;
+  width: 5pc;
+  height: 5pc;
+
+}
+#container-ingresso{
+  display: flex;
+  gap: 5pc;
+  flex-direction: column;
+
+}
+#container-infos{
+  position: relative;
+  top: -7pc;
+  width: 20pc;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(114, 114, 114, 0.027);
+  border-radius: 20px;
+}
+
+ }

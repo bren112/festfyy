@@ -1,0 +1,34 @@
+.projetos h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.projetos .lista {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+}
+
+@media screen and (max-width: 520px) {
+  .projetos {
+  }
+  .projetos h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .projetos .lista {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+    padding-bottom: 80px;
+  }
+}

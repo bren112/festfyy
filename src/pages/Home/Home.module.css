@@ -1,0 +1,128 @@
+.home {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home img {
+  width: 20pc;
+  height: 29pc;
+}
+
+.home p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.home span {
+  font-size: 3.5rem;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.home .btn {
+  width: 250px;
+  height: 60px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+.btn_red {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.btn_red:hover {
+  transition: all 1s;
+  background-color: var(--primary);
+}
+
+#mobile{
+  width: 0;
+  display: none;
+}
+
+.divbtn{
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 870px) {
+  /* Estilizações CSS */
+  .home img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #mobile{
+    width: 277px;
+    height: 374px;
+    display: block;
+  }
+  .home p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home span {
+    font-size: 1.75rem;
+    color: var(--secondary);
+    font-weight: bold;
+  }
+
+  .home .btn {
+    text-align: center;
+    width: 150px;
+  }
+
+  .home img {
+    width: 0;
+    display: none;
+  }
+  .divbtn{
+      display: flex;
+      justify-content: center;
+    }
+  
+}
+
+@media screen and (max-width: 520px) {
+  /* Estilizações CSS */
+  .home img {
+    width: 250px;
+    height: 250px;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home p {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .home span {
+    font-size: 2.75rem;
+    color: var(--red);
+    font-weight: bold;
+  }
+
+  .home .btn {
+    text-align: center;
+    width: 150px;
+  }
+  
+}

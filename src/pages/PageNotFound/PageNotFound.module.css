@@ -1,0 +1,21 @@
+.titulo2 {
+  padding-top: 2rem;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textos span,
+strong {
+  font-size: 20rem;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.textos strong {
+  color: var(--black);
+  font-size: 2rem;
+}
