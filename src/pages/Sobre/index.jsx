@@ -42,15 +42,7 @@ export default function Sobre() {
         <img src={img_login} alt="" srcset="" id='img'/>
 
   
-        <p id='desc'>
-        Para garantir seu lugar nesse evento incrível, faça 
-        o login agora e adquira
-         seu ingresso antes que acabem! 
-         Mal podemos esperar para ver você em nossa festa!
-        </p>
-        <p id='desc'>
-        Estamos adotando um novo método de login em parceria com o Google. Esperamos que essa mudança facilite sua experiência de acesso à nossa plataforma.
-        </p>
+       
       <div className='div-btn'>
       <button onClick={handleLogin} className='login-with-google-btn'>Login Google</button>
       </div>
